@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+
+*{ 
+    
+    margin: 0px ;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myForm{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    min-height: 79vh;
+    margin: 22px 0px;
+}
+
+.container h1{
+    font-size: 35px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.myInput{
+    font-size: 14px;
+    width: 42%;
+    padding: 7px;
+    margin: 9px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 6px 12px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: white;
+    background-color: #acb7b7;
+    margin: 7px;
+    cursor: pointer;
+    outline: none;
+}

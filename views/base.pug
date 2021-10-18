@@ -1,0 +1,25 @@
+//- layout.pg also
+doctype html
+html
+  head
+    title Prime Dance Academy
+    block style
+
+    block scripts
+      
+  body
+    nav#navbar
+        ul
+            div#logo
+                 img(src="../static/ball.png")
+                 | PDA
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class Info]
+            li #[a(href='/contact') Contact Us]
+    block content
+         | This is content
+
+    footer#footer
+        | Copyright © 2021 PrimeDanceAcademy.com | All rights reserved

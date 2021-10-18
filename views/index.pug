@@ -1,0 +1,63 @@
+// Whole html code is in pug form
+doctype html
+html
+
+  head
+    title PDA
+    style // style.css is by default is in views
+       include ../static/style.css 
+    script
+      include ../static/index.js
+  body
+    nav#navbar
+        ul
+            div#logo
+                 img(src="../static/ball.png")
+                 | PDA
+            li #[a(href='/') Home]
+            li #[a(href='/') About]
+            li #[a(href='/') Services]
+            li #[a(href='/') Class Info]
+            li #[a(href='/') Contact Us]
+
+    section#introSection
+        div Welcome to Prime's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card 
+              h3 Dance Perfection
+              div.card-box
+                  div.card-img
+                      img(src="../static/hip.png")
+
+                  div.card-content
+                      p This is the best dance academy you can ever have.
+        div.card 
+              h3 Any Body Can Dance
+              div.card-box
+                  div.card-img
+                      img(src="../static/hop.png")
+
+                  div.card-content
+                      p This is the best dance academy you can ever have.
+        div.card 
+              h3 Best Dance Teaching
+              div.card-box
+                  div.card-img
+                      img(src="../static/5.png")
+
+                  div.card-content
+                      p This is the best dance academy you can ever have.
+    section#sponserSection
+        h2 Our Sponsers
+        div#sponsers
+            img(src="../static/oke.png", alt="Sponser Image", class="spimg")
+            img(src="../static/micro.png", alt="Sponser Image", class="spimg")
+            img(src="../static/roll.png", alt="Sponser Image", class="spimg")
+            img(src="../static/bok.png", alt="Sponser Image", class="spimg")
+  
+    footer#footer
+        | Copyright © 2021 PrimeDanceAcademy.com | All rights reserved
+    

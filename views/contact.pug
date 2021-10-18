@@ -1,0 +1,27 @@
+extends base.pug  
+//- filling of base tempelate
+
+block style
+    style
+       include ../static/stylecontact.css
+       include ../static/style.css
+
+block scripts
+    script(src="../static/index.js")
+
+
+block content   
+
+  div.container
+    
+     H1 Contact Us
+     form(action= "/contact", method= "post", class= "myForm")
+        input(type="text" class= "myInput" name="name" placeholder="Enter your name..")
+        input(type="phone" class= "myInput" name="phone" placeholder="Enter your phone no..")
+        input(type="email" class= "myInput" name="email" placeholder="Enter your email..")
+        input(type="address" class= "myInput" name="address" placeholder="Enter your address..")
+        input(type="desc" class= "myInput" name="desc" placeholder="Enter your concern..")
+        button(class="btn")
+             | Submit
+//-    form(action="/contact", method="post")
+//-        input(type="text", class="myInput", name="name", placeholder="Enter Your Name")

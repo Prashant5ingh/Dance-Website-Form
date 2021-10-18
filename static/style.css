@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&display=swap');
+*{ 
+    
+    margin: 0px ;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -7px 48px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+#logo img{
+    height: 44px;
+    filter: invert(1);
+}
+#navbar{
+     
+    padding: 7px;
+    margin: 0px 0px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Palette Mosaic', cursive;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color:#bdd1cc;
+   
+}
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+
+#navbar li{
+   list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 10px ;
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#introSection{
+    padding-bottom: 45px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 3rem;
+     background: center/cover no-repeat url("/static/pex.jpeg");
+    height: 550px;
+    background-color: rgb(140, 0, 255);
+}
+#introSection div.small{
+    font-size: 26px;
+    padding: 4px;
+}
+
+#missionSection {
+
+    height: 260px;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+}
+#missionSection h2{
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    font-weight: bold;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 2px 18px;
+    height: 150px;
+    background-color: #f3fbfc;
+}
+.card h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 18px;
+    margin: 6px 5px;
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: small;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    padding: 0 14px;
+    margin: 1px -3px;
+}
+#sponserSection {
+
+    height: 260px;
+    background-color: #daeaec;
+}
+#sponserSection h2{
+    font-size: 30px;
+margin-top: 0px;
+    text-align: center;
+    padding-top: 21px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#sponsers{
+    height: 130px;
+    max-width: 831px;
+    margin: -22px auto;
+    margin-left: 269px;
+}
+
+.spimg{
+    height: 86%;
+    margin: 47px
+}
+#footer{
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    background-color: black;
+    height: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
